@@ -2,6 +2,8 @@
 
 A pixel-art office where real QA agents (Claude Agent SDK + Playwright) test a link following your rules, ask each other questions, and escalate important decisions to you, the boss.
 
+![alt text](image.png)
+
 ## Run
 
 ```bash

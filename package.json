@@ -1,0 +1,12 @@
+{
+  "name": "like-human-qa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n server,web -c magenta,cyan \"pnpm --filter @lhqa/server dev\" \"pnpm --filter @lhqa/web dev\"",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
